@@ -18,15 +18,15 @@ La propuesta consiste en desarrollar una serie de prompts que mejoren la interac
 Modelo Texto-Texto: Implementaremos una IA de texto (como Groq) para analizar y generar respuestas a los prompts. Ajustaremos los parámetros y configuraciones para optimizar la precisión y relevancia de las respuestas.
 
 1.	"¿Cómo crees que la educación en línea puede ser mejorada para adaptarse a diferentes estilos de aprendizaje?",
-2.	    "Comparte una herramienta o recurso en línea que te haya sido particularmente útil en tus estudios. ¿Por qué lo recomendarías a otros estudiantes?",
-3.	    "¿Qué opinas sobre la importancia del equilibrio entre la vida personal y académica en el contexto de la educación en línea?",
-4.	    "Reflexiona sobre un momento en el que hayas sentido una gran satisfacción académica. ¿Qué lo hizo especial y cómo lo lograste?",
-5.	    "¿Cómo manejas el estrés y la presión de los estudios en línea? Comparte algunas técnicas que te hayan ayudado.",
-6.	    "¿Qué habilidades crees que son esenciales para tener éxito en un entorno de aprendizaje en línea? ¿Cómo las has desarrollado?",
-7.	    "¿Cómo te mantienes organizado y gestionas tu tiempo mientras estudias en línea? ¿Qué herramientas o métodos utilizas?",
-8.	    "¿Qué opinas sobre la gamificación en la educación? ¿Crees que puede hacer el aprendizaje más efectivo y divertido?",
-9.	    "¿Cómo crees que la educación en línea puede fomentar la inclusión y la diversidad?",
-10.	    "¿Qué cambios te gustaría ver en el sistema educativo actual para mejorar la experiencia de aprendizaje en línea?"
+2.	"Comparte una herramienta o recurso en línea que te haya sido particularmente útil en tus estudios. ¿Por qué lo recomendarías a otros estudiantes?",
+3.	"¿Qué opinas sobre la importancia del equilibrio entre la vida personal y académica en el contexto de la educación en línea?",
+4.	"Reflexiona sobre un momento en el que hayas sentido una gran satisfacción académica. ¿Qué lo hizo especial y cómo lo lograste?",
+5.	"¿Cómo manejas el estrés y la presión de los estudios en línea? Comparte algunas técnicas que te hayan ayudado.",
+6.	"¿Qué habilidades crees que son esenciales para tener éxito en un entorno de aprendizaje en línea? ¿Cómo las has desarrollado?",
+7.	"¿Cómo te mantienes organizado y gestionas tu tiempo mientras estudias en línea? ¿Qué herramientas o métodos utilizas?",
+8.	"¿Qué opinas sobre la gamificación en la educación? ¿Crees que puede hacer el aprendizaje más efectivo y divertido?",
+9.	"¿Cómo crees que la educación en línea puede fomentar la inclusión y la diversidad?",
+10.	"¿Qué cambios te gustaría ver en el sistema educativo actual para mejorar la experiencia de aprendizaje en línea?"
 La IA analizará estas consultas y generará respuestas que se adapten mejor a las necesidades y         contextos de los estudiantes, optimizando así la eficacia de la interacción y el compromiso en las plataformas de educación en línea.
 Respuesta de la IA:
 Prompt: ¿Cómo crees que la educación en línea puede ser mejorada para adaptarse a diferentes estilos de aprendizaje?
@@ -270,6 +270,9 @@ In [ ]:
 #Descargar y guardar img
 imagen = Image.open(BytesIO(requests.get(url_imagen).content))
 imagen.save("imagen_generada.png")
+
+
+
 
 Estimación de Tokens y Costo
 Costo total = $0.13 USD
